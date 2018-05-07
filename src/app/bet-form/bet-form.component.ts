@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'bet-form',
+  selector: 'cc-bet-form',
   templateUrl: './bet-form.component.html',
   styleUrls: ['./bet-form.component.css']
 })

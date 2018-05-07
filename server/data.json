@@ -1,0 +1,28 @@
+[
+    {
+      "id": 1,
+      "title": "Pari de test",
+      "description": "Je parie que je vais gagner",
+      "betters-yes": [
+        "Sam",
+        "Bob"
+      ],
+      "betters-no": [
+        "Bill",
+        "Mus"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Rugby France/Angletter",
+      "description": "Victoire de la France",
+      "betters-yes": [
+        "Steph",
+        "Ian"
+      ],
+      "betters-no": [
+        "Richard",
+        "Bob"
+      ]
+    }
+  ]
