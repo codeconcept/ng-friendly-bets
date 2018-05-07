@@ -1,26 +1,30 @@
 [
     {
       "id": 1,
-      "title": "Pari de test",
-      "description": "Je parie que je vais gagner",
-      "betters-yes": [
+      "title": "Maximum 3 bugs mineurs après les tests",
+      "description": "Je parie que Max trouvera moins de 3 bugs après les tests",
+      "creator": "Sam",
+      "price": "croissants",
+      "bettersYes": [
         "Sam",
         "Bob"
       ],
-      "betters-no": [
+      "bettersNo": [
         "Bill",
         "Mus"
       ]
     },
     {
       "id": 2,
-      "title": "Rugby France/Angletter",
-      "description": "Victoire de la France",
-      "betters-yes": [
+      "title": "Rugby France/Angleterre",
+      "description": "Je parie que la France gagnera contre l'Angleterre pendant le tournoi des 6 nations",
+      "creator": "Ian",    
+      "price": "tournée générale",  
+      "bettersYes": [
         "Steph",
         "Ian"
       ],
-      "betters-no": [
+      "bettersNo": [
         "Richard",
         "Bob"
       ]

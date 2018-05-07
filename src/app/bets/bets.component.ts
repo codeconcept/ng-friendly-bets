@@ -1,23 +1,26 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
 
-import { BetService } from '../services/bet.service';
+import { BetService } from "../services/bet.service";
 
 @Component({
-  selector: 'cc-bets',
-  templateUrl: './bets.component.html',
-  styleUrls: ['./bets.component.css']
+  selector: "cc-bets",
+  templateUrl: "./bets.component.html",
+  styleUrls: ["./bets.component.css"]
 })
 export class BetsComponent implements OnInit {
   bets = [];
 
-  constructor(private betService: BetService) { }
+  constructor(private betService: BetService) {}
 
   ngOnInit() {
-    this.betService.getBets().subscribe((data) => {
-      console.log(data);
-    }, (err) => {
-      console.error(err)
-    })
+    this.betService.getBets().subscribe(
+      data => {
+        console.log(data);
+        this.bets = data;
+      },
+      err => {
+        console.error(err);
+      }
+    );
   }
-
 }

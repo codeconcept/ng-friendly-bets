@@ -1,3 +1,10 @@
-<p>
-  bets works!
-</p>
+<div>
+  <div *ngFor="let bet of bets">
+    <h3>{{bet.title}} (par {{bet.creator}})</h3>
+    <p>{{bet.description}}</p>
+    <p>enjeu : {{bet.price}}</p>
+    <p>Parie que oui : <span *ngFor="let btry of bet.bettersYes"> {{btry}} </span></p>
+    <p>Parie que non : <span *ngFor="let btry of bet.bettersNo"> {{btry}} </span></p>
+    <hr>
+  </div>
+</div>

@@ -11,6 +11,5 @@ export class BetService {
   getBets(): Observable<any> {
     return this.httpClient
       .get("http://localhost:8080/server/data.json");
-
   }
 }
