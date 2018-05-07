@@ -1,5 +1,6 @@
 <form #f="ngForm" (ngSubmit)="addBet(f)">
-  <input type="text" [(ngModel)]="bet.title" name="bet-title" id="bet-title" placeholder="titre de votre pari"><br>
-  <textarea [(ngModel)]="bet.description" name="bet-description" id="bet-title" placeholder="description de votre pari"></textarea><br>
+  <input type="text" [(ngModel)]="bet.title" name="title" id="title" placeholder="titre de votre pari"><br>
+  <textarea [(ngModel)]="bet.description" name="description" id="description" placeholder="description de votre pari"></textarea><br>
+  <input type="text" [(ngModel)]="bet.price" name="price" id="price" placeholder="enjeu de votre pari"><br>  
   <button type="submit">ajouter</button>
 </form>

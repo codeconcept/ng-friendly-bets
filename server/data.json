@@ -4,6 +4,7 @@
       "title": "Maximum 3 bugs mineurs après les tests",
       "description": "Je parie que Max trouvera moins de 3 bugs après les tests",
       "creator": "Sam",
+      "dateCreation": "31/04/2018",
       "price": "croissants",
       "bettersYes": [
         "Sam",
@@ -19,6 +20,7 @@
       "title": "Rugby France/Angleterre",
       "description": "Je parie que la France gagnera contre l'Angleterre pendant le tournoi des 6 nations",
       "creator": "Ian",    
+      "dateCreation": "05/05/2018",      
       "price": "tournée générale",  
       "bettersYes": [
         "Steph",
