@@ -5,6 +5,7 @@
     <p>enjeu : {{bet.price}}</p>
     <p>Parie que oui : <span *ngFor="let btry of bet.bettersYes"> {{btry}} </span></p>
     <p>Parie que non : <span *ngFor="let btry of bet.bettersNo"> {{btry}} </span></p>
+    <a [routerLink]="['/bets', bet.id]">voir le détail</a>
     <hr>
   </div>
 </div>
